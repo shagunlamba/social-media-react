@@ -1,0 +1,168 @@
+.upload{
+    width: 100%;
+    min-height: 650px;
+    height: auto;
+    /* background-color: tomato; */
+}
+.uploadForm{
+    width: 450px;
+    margin: auto;
+    /* background-color: blue; */
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.uploadForm input{
+    width: 80%;
+    margin: auto;
+}
+
+.uploadForm h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(97, 85, 166);
+}
+
+@media (max-width: 992px){
+    .uploadForm{
+        width: 400px;
+    }
+}
+
+.formLabel{
+    color: #3d84b8;
+    margin-left: 45px;
+    font-weight: 500;
+}
+
+.form-group--password{
+    position: relative;
+}
+
+.passwordIcon{
+        position: absolute;
+        right: 13%;
+        top: 60%;
+        cursor: pointer;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #6155a6 0%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #6155a6 0%, #b0c9ff 100%);
+    transition: .4s;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+.square_btn:hover{
+    color: white;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(45deg, #a685e2 50%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #a685e2 50%, #b0c9ff 100%);
+}
+
+/* .Select .form-control{
+    width: 79% !important;
+} */
+
+.customButton{
+    background-color: #3d84b8;
+    color: #FFF;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+
+/* input[type="file"] {
+    display: none;
+}
+.custom-file-upload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+} */
+
+.Feed{
+    width: 100%;
+    height: auto;
+    min-height: 640px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Post{
+    width: 502px;
+    height: 492px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+
+.Post .Image{
+    /* flex: 70%; */
+    /* background-color: lightblue; */
+}
+
+.Post .Image img{
+    height: 400px;
+    width: 100%;
+}
+
+.Post .Image div{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Post .Content{
+    flex: 30%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+
+.Post .Content .title{
+    flex: 30%;
+    /* background-color: crimson; */
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.Post .Content .description{
+    flex: 70%;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.preview{
+    color: #6155a6;
+    font-weight: 500;
+    font-size: 18px;
+}

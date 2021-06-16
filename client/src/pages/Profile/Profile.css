@@ -1,0 +1,114 @@
+.userArea{
+    padding-left: 43px !important;
+    /* background-color: pink; */
+}
+
+.user{
+    font-size: 25px;
+    color: #6154A6;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.textArea{
+    width: 35% !important;
+}
+
+.form-control:disabled, .form-control[readonly]{
+    background-color: red !important;
+}
+
+
+/* posts ------------ */
+
+.Feed{
+    width: 100%;
+    height: auto;
+    min-height: 640px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Feed .Post{
+    width: 506px;
+    height: 496px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.Feed .Post .Image{
+    /* flex: 70%; */
+    /* background-color: lightblue; */
+}
+
+.Feed .Post .Image img{
+    height: 400px;
+    width: 100%;
+}
+
+.Feed .Post .Content{
+    flex: 30%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+
+.Feed .Post .Content .title{
+    flex: 30%;
+    /* background-color: crimson; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.Feed .Post .Content .description{
+    flex: 70%;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.customIcon{
+    font-size: 34px !important;
+    color: grey;
+    margin-left: 15px;
+}
+
+.customIcon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.delete--icon{
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.modal-backdrop.show{
+    opacity: 0.03 !important;
+}
+
+.custom-btn--styles{
+    background-color: #dc3545 !important;
+    border: 1px solid #dc3545 !important;
+}
+
+.modal-content{
+    border: 0 !important;
+}
+
+.logout--icon{
+    margin-right: 50px;
+    cursor: pointer;
+    background: #e5d9fa;
+    border-radius: 5px;
+}

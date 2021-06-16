@@ -1,0 +1,80 @@
+.login{
+    width: 100%;
+    height: 650px;
+    /* background-color: tomato; */
+}
+.loginForm{
+    width: 420px;
+    margin: auto;
+    /* background-color: blue; */
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.loginForm input{
+    width: 80%;
+    margin: auto;
+}
+
+.login h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: rgb(97, 85, 166);
+}
+
+@media (max-width: 992px){
+    .loginForm{
+        width: 400px;
+    }
+}
+
+.formLabel{
+    color: #3d84b8;
+    margin-left: 45px;
+    font-weight: 500;
+}
+
+.form-group--password{
+    position: relative;
+}
+
+.passwordIcon{
+        position: absolute;
+        right: 13%;
+        top: 60%;
+        cursor: pointer;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #6155a6 0%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #6155a6 0%, #b0c9ff 100%);
+    transition: .4s;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+.square_btn:hover{
+    color: white;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(45deg, #a685e2 50%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #a685e2 50%, #b0c9ff 100%);
+}
+
+.error-messages{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #dc3545;
+    font-weight: 500;
+}
